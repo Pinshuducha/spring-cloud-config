@@ -1,0 +1,17 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Pinshuducha/config-file/
+          search-paths: config-repo
+          username: java_zhoulu@163.com
+          password: zhoulu1994
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
