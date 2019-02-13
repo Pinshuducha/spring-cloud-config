@@ -9,8 +9,8 @@ spring:
         git:
           uri: https://github.com/Pinshuducha/config-file/
           search-paths: config-repo
-          username: java_zhoulu@163.com
-          password: zhoulu1994
+          username: 
+          password:
 eureka:
   client:
     serviceUrl:
